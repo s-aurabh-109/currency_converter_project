@@ -1,0 +1,1018 @@
+{
+   "questions": [
+  {
+    "question": "Which country uses the currency called 'Baht'?",
+    "options": ["Thailand", "Bangladesh", "Nepal", "Philippines"],
+    "answer": "Thailand",
+    "explanation": "Baht is the official currency of Thailand, with symbol ฿."
+  },
+  {
+    "question": "What currency does the European Union use?",
+    "options": ["Pound", "Euro", "Franc", "Lira"],
+    "answer": "Euro",
+    "explanation": "The Euro (€) is used by 20 of the 27 EU member states."
+  },
+  {
+    "question": "What is the official currency of Japan?",
+    "options": ["Yen", "Won", "Ringgit", "Yuan"],
+    "answer": "Yen",
+    "explanation": "The Japanese Yen (¥) is the official currency of Japan."
+  },
+  {
+    "question": "Which country uses the currency 'Ruble'?",
+    "options": ["Russia", "Poland", "Ukraine", "Czech Republic"],
+    "answer": "Russia",
+    "explanation": "The Ruble (₽) is the official currency of Russia."
+  },
+  {
+    "question": "Which currency is used in South Korea?",
+    "options": ["Yen", "Won", "Dollar", "Peso"],
+    "answer": "Won",
+    "explanation": "The South Korean Won (₩) is the official currency of South Korea."
+  },
+  {
+    "question": "Which of the following countries uses the 'Ringgit'?",
+    "options": ["Indonesia", "Malaysia", "Vietnam", "Thailand"],
+    "answer": "Malaysia",
+    "explanation": "Ringgit (MYR) is the official currency of Malaysia."
+  },
+  {
+    "question": "What is the currency of China?",
+    "options": ["Yuan", "Yen", "Baht", "Won"],
+    "answer": "Yuan",
+    "explanation": "The official currency of China is the Renminbi, with Yuan (¥) as its unit."
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "options": ["Euro", "Pound Sterling", "Dollar", "Franc"],
+    "answer": "Pound Sterling",
+    "explanation": "The Pound Sterling (£) is the UK's official currency."
+  },
+  {
+    "question": "Which country uses the Peso?",
+    "options": ["Argentina", "Mexico", "Philippines", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Countries like Argentina, Mexico, and the Philippines all use 'Peso'."
+  },
+  {
+    "question": "What is the currency of Switzerland?",
+    "options": ["Euro", "Franc", "Krona", "Mark"],
+    "answer": "Franc",
+    "explanation": "The Swiss Franc (CHF) is the currency of Switzerland."
+  },
+  {
+    "question": "Which currency is used in India?",
+    "options": ["Rupee", "Taka", "Rial", "Ringgit"],
+    "answer": "Rupee",
+    "explanation": "The Indian Rupee (₹) is India's official currency."
+  },
+  {
+    "question": "Which country uses the currency 'Real'?",
+    "options": ["Brazil", "Chile", "Peru", "Colombia"],
+    "answer": "Brazil",
+    "explanation": "The Brazilian Real (R$) is the official currency of Brazil."
+  },
+  {
+    "question": "What is the currency of the United States?",
+    "options": ["Dollar", "Pound", "Euro", "Franc"],
+    "answer": "Dollar",
+    "explanation": "The US Dollar ($) is the official currency of the United States."
+  },
+  {
+    "question": "Which currency is used in Saudi Arabia?",
+    "options": ["Rial", "Dinar", "Dirham", "Lira"],
+    "answer": "Rial",
+    "explanation": "The Saudi Riyal (SAR) is the official currency of Saudi Arabia."
+  },
+  {
+    "question": "What is the currency of Canada?",
+    "options": ["US Dollar", "Canadian Dollar", "Pound", "Euro"],
+    "answer": "Canadian Dollar",
+    "explanation": "Canada uses the Canadian Dollar (CAD) as its official currency."
+  },
+  {
+    "question": "Which currency is used in Australia?",
+    "options": ["Australian Dollar", "Euro", "Pound", "NZ Dollar"],
+    "answer": "Australian Dollar",
+    "explanation": "The Australian Dollar (AUD) is the official currency of Australia."
+  },
+  {
+    "question": "What currency is used in Egypt?",
+    "options": ["Dirham", "Dinar", "Pound", "Franc"],
+    "answer": "Pound",
+    "explanation": "The Egyptian Pound (EGP) is Egypt’s official currency."
+  },
+  {
+    "question": "What is the currency of Vietnam?",
+    "options": ["Yuan", "Baht", "Dong", "Won"],
+    "answer": "Dong",
+    "explanation": "The Vietnamese Dong (VND) is the currency of Vietnam."
+  },
+  {
+    "question": "Which currency is used in Pakistan?",
+    "options": ["Taka", "Rupee", "Rial", "Dinar"],
+    "answer": "Rupee",
+    "explanation": "Pakistan uses the Pakistani Rupee (PKR) as its official currency."
+  },
+  {
+    "question": "Which country uses the 'Lira'?",
+    "options": ["Turkey", "Greece", "Italy", "Lebanon"],
+    "answer": "Turkey",
+    "explanation": "The Turkish Lira (TRY) is the official currency of Turkey."
+  },
+  {
+    "question": "What is the currency of Norway?",
+    "options": ["Krone", "Euro", "Pound", "Franc"],
+    "answer": "Krone",
+    "explanation": "The Norwegian Krone (NOK) is the official currency of Norway."
+  },
+  {
+    "question": "Which country uses the 'Dinar'?",
+    "options": ["Iraq", "Kuwait", "Algeria", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Several countries like Iraq, Kuwait, and Algeria use the Dinar."
+  },
+  {
+    "question": "What is the currency of South Africa?",
+    "options": ["Rand", "Dollar", "Pound", "Shilling"],
+    "answer": "Rand",
+    "explanation": "The South African Rand (ZAR) is the official currency."
+  },
+  {
+    "question": "Which of the following countries uses the 'Forint'?",
+    "options": ["Hungary", "Bulgaria", "Romania", "Slovakia"],
+    "answer": "Hungary",
+    "explanation": "Hungary uses the Forint (HUF) as its currency."
+  },
+  {
+    "question": "What currency is used in Indonesia?",
+    "options": ["Baht", "Dong", "Rupiah", "Ringgit"],
+    "answer": "Rupiah",
+    "explanation": "The Indonesian Rupiah (IDR) is the official currency of Indonesia."
+  },
+  {
+    "question": "Which country uses the 'Dirham'?",
+    "options": ["UAE", "Morocco", "Both", "None"],
+    "answer": "Both",
+    "explanation": "The Dirham is used in both UAE (AED) and Morocco (MAD)."
+  },
+  {
+    "question": "What is the currency of the Philippines?",
+    "options": ["Peso", "Rial", "Ringgit", "Lira"],
+    "answer": "Peso",
+    "explanation": "The Philippine Peso (PHP) is the country's official currency."
+  },
+  {
+    "question": "Which currency is used in Nigeria?",
+    "options": ["Naira", "Dollar", "Shilling", "Pound"],
+    "answer": "Naira",
+    "explanation": "The Nigerian Naira (NGN) is the country's official currency."
+  },
+  {
+    "question": "Which of the following is the currency of Israel?",
+    "options": ["Shekel", "Dinar", "Rial", "Franc"],
+    "answer": "Shekel",
+    "explanation": "The Israeli New Shekel (ILS) is the official currency of Israel."
+  },
+  {
+    "question": "What currency is used in Bangladesh?",
+    "options": ["Taka", "Rupee", "Rial", "Dinar"],
+    "answer": "Taka",
+    "explanation": "The Bangladeshi Taka (BDT) is the official currency."
+  },
+  {
+    "question": "Which currency is used in Sri Lanka?",
+    "options": ["Rupee", "Taka", "Dollar", "Baht"],
+    "answer": "Rupee",
+    "explanation": "The Sri Lankan Rupee (LKR) is the country’s official currency."
+  },
+  {
+    "question": "What is the currency of New Zealand?",
+    "options": ["NZ Dollar", "Australian Dollar", "Pound", "Euro"],
+    "answer": "NZ Dollar",
+    "explanation": "The New Zealand Dollar (NZD) is the country’s currency."
+  },
+  {
+    "question": "Which country uses the 'Leu'?",
+    "options": ["Romania", "Bulgaria", "Albania", "Serbia"],
+    "answer": "Romania",
+    "explanation": "The Romanian Leu (RON) is the official currency of Romania."
+  },
+  {
+    "question": "What is the currency of Kenya?",
+    "options": ["Shilling", "Rand", "Dollar", "Rupee"],
+    "answer": "Shilling",
+    "explanation": "The Kenyan Shilling (KES) is the currency of Kenya."
+  },
+  {
+    "question": "What currency is used in Sweden?",
+    "options": ["Krone", "Euro", "Krona", "Pound"],
+    "answer": "Krona",
+    "explanation": "Sweden uses the Swedish Krona (SEK)."
+  },
+  {
+    "question": "Which country uses the currency 'Bolívar'?",
+    "options": ["Venezuela", "Peru", "Bolivia", "Colombia"],
+    "answer": "Venezuela",
+    "explanation": "The Venezuelan Bolívar (VES) is the official currency of Venezuela."
+  },
+  {
+    "question": "What is the official currency of Bhutan?",
+    "options": ["Ngultrum", "Rupee", "Taka", "Dollar"],
+    "answer": "Ngultrum",
+    "explanation": "Bhutan uses the Ngultrum (BTN), which is pegged to the Indian Rupee."
+  },
+  {
+    "question": "What was Germany's currency before the Euro?",
+    "options": ["Deutsche Mark", "Franc", "Schilling", "Krone"],
+    "answer": "Deutsche Mark",
+    "explanation": "Germany used the Deutsche Mark (DEM) before switching to the Euro."
+  },
+  {
+    "question": "Which currency symbol is used for Ethereum?",
+    "options": ["Ξ", "₿", "E", "ETH"],
+    "answer": "Ξ",
+    "explanation": "The Greek letter 'Ξ' is used as the symbol for Ethereum."
+  },
+  {
+    "question": "Which country uses the 'Manat' as its currency?",
+    "options": ["Azerbaijan", "Kazakhstan", "Uzbekistan", "Turkmenistan"],
+    "answer": "Azerbaijan",
+    "explanation": "The Azerbaijani Manat (AZN) is the official currency of Azerbaijan."
+  },
+  {
+    "question": "Which African country uses the 'Cedi'?",
+    "options": ["Ghana", "Kenya", "Nigeria", "Tanzania"],
+    "answer": "Ghana",
+    "explanation": "Ghana uses the Ghanaian Cedi (GHS)."
+  },
+  {
+    "question": "What is the currency of Iraq?",
+    "options": ["Dinar", "Rial", "Dirham", "Toman"],
+    "answer": "Dinar",
+    "explanation": "Iraq uses the Iraqi Dinar (IQD) as its currency."
+  },
+  {
+    "question": "What is the smallest unit of Bitcoin called?",
+    "options": ["Satoshi", "Wei", "Nano", "Bit"],
+    "answer": "Satoshi",
+    "explanation": "One Satoshi is the smallest unit of Bitcoin, equal to 0.00000001 BTC."
+  },
+  {
+    "question": "Which currency is used in Zimbabwe after hyperinflation?",
+    "options": ["US Dollar", "Rand", "Euro", "Yuan"],
+    "answer": "US Dollar",
+    "explanation": "After hyperinflation, Zimbabwe adopted the US Dollar and other foreign currencies."
+  },
+  {
+    "question": "What was Italy's currency before adopting the Euro?",
+    "options": ["Lira", "Franc", "Drachma", "Mark"],
+    "answer": "Lira",
+    "explanation": "Italy used the Italian Lira (ITL) before switching to the Euro."
+  },
+  {
+    "question": "Which South American country uses the Sol?",
+    "options": ["Peru", "Bolivia", "Ecuador", "Colombia"],
+    "answer": "Peru",
+    "explanation": "The Peruvian Sol (PEN) is the country's official currency."
+  },
+  {
+    "question": "What is the currency of Morocco?",
+    "options": ["Dirham", "Dinar", "Rial", "Franc"],
+    "answer": "Dirham",
+    "explanation": "The Moroccan Dirham (MAD) is the official currency."
+  },
+  {
+    "question": "Which of these is a stablecoin?",
+    "options": ["USDC", "ETH", "BTC", "DOGE"],
+    "answer": "USDC",
+    "explanation": "USDC is a stablecoin pegged 1:1 to the US Dollar."
+  },
+  {
+    "question": "What is the currency of Cuba?",
+    "options": ["Peso", "Bolívar", "Colon", "Lempira"],
+    "answer": "Peso",
+    "explanation": "Cuba uses the Cuban Peso (CUP)."
+  },
+  {
+    "question": "Which is the currency of Nepal?",
+    "options": ["Rupee", "Taka", "Ngultrum", "Lira"],
+    "answer": "Rupee",
+    "explanation": "Nepal uses the Nepalese Rupee (NPR)."
+  },
+  {
+    "question": "Which Central American country uses the Balboa?",
+    "options": ["Panama", "Costa Rica", "Honduras", "Nicaragua"],
+    "answer": "Panama",
+    "explanation": "Panama uses the Balboa (PAB) alongside the US Dollar."
+  },
+  {
+    "question": "Which country uses the currency 'Tenge'?",
+    "options": ["Kazakhstan", "Uzbekistan", "Tajikistan", "Armenia"],
+    "answer": "Kazakhstan",
+    "explanation": "The Kazakhstani Tenge (KZT) is the currency of Kazakhstan."
+  },
+  {
+    "question": "What is the name of the currency used in Thailand?",
+    "options": ["Baht", "Dong", "Riel", "Kip"],
+    "answer": "Baht",
+    "explanation": "The Thai Baht (THB) is Thailand’s official currency."
+  },
+  {
+    "question": "Which country uses the 'Dram'?",
+    "options": ["Armenia", "Georgia", "Azerbaijan", "Belarus"],
+    "answer": "Armenia",
+    "explanation": "The Armenian Dram (AMD) is the national currency of Armenia."
+  },
+  {
+    "question": "Which historical European currency used the symbol ₣?",
+    "options": ["Franc", "Lira", "Drachma", "Krone"],
+    "answer": "Franc",
+    "explanation": "The Franc (₣) was used in countries like France and Switzerland."
+  },
+  {
+    "question": "What is the currency of Angola?",
+    "options": ["Kwanza", "Rand", "Shilling", "Dinar"],
+    "answer": "Kwanza",
+    "explanation": "Angola uses the Kwanza (AOA) as its national currency."
+  },
+  {
+    "question": "Which cryptocurrency was originally a joke but gained popularity?",
+    "options": ["Dogecoin", "Litecoin", "Monero", "Ripple"],
+    "answer": "Dogecoin",
+    "explanation": "Dogecoin (DOGE) was created as a joke, but gained serious traction online."
+  },
+  {
+    "question": "Which country replaced its currency with the Euro in 2002?",
+    "options": ["Spain", "Norway", "Denmark", "Sweden"],
+    "answer": "Spain",
+    "explanation": "Spain adopted the Euro in 2002, replacing the Peseta."
+  },
+  {
+    "question": "What currency does Switzerland use?",
+    "options": ["Franc", "Euro", "Krona", "Pound"],
+    "answer": "Franc",
+    "explanation": "Switzerland uses the Swiss Franc (CHF) and has not adopted the Euro."
+  },
+  {
+    "question": "Which Asian country uses the 'Kip'?",
+    "options": ["Laos", "Cambodia", "Myanmar", "Vietnam"],
+    "answer": "Laos",
+    "explanation": "Laos uses the Lao Kip (LAK) as its currency."
+  },
+  {
+    "question": "Which country uses the currency 'Lek'?",
+    "options": ["Albania", "Bulgaria", "Bosnia", "Serbia"],
+    "answer": "Albania",
+    "explanation": "The Albanian Lek (ALL) is the national currency."
+  },
+  {
+    "question": "Which cryptocurrency allows anonymous transactions?",
+    "options": ["Monero", "Ethereum", "Cardano", "Tether"],
+    "answer": "Monero",
+    "explanation": "Monero (XMR) is known for its privacy and anonymous transactions."
+  },
+  {
+    "question": "What is the currency of Denmark?",
+    "options": ["Krone", "Euro", "Franc", "Lira"],
+    "answer": "Krone",
+    "explanation": "Denmark uses the Danish Krone (DKK)."
+  },
+  {
+    "question": "Which Caribbean country uses the East Caribbean Dollar?",
+    "options": ["Saint Lucia", "Barbados", "Bahamas", "Cuba"],
+    "answer": "Saint Lucia",
+    "explanation": "Saint Lucia is one of the countries using the East Caribbean Dollar (XCD)."
+  },
+  {
+    "question": "What does 'fiat currency' mean?",
+    "options": ["Currency backed by government trust", "Digital currency", "Commodity-based currency", "Cryptocurrency"],
+    "answer": "Currency backed by government trust",
+    "explanation": "Fiat currency has no intrinsic value and is backed by the government’s decree."
+  },
+  {
+    "question": "Which country uses the currency 'Pula'?",
+    "options": ["Botswana", "Namibia", "Zambia", "South Africa"],
+    "answer": "Botswana",
+    "explanation": "The Botswana Pula (BWP) is the national currency."
+  },
+  {
+    "question": "What currency is used in Chile?",
+    "options": ["Peso", "Real", "Sol", "Bolívar"],
+    "answer": "Peso",
+    "explanation": "Chile uses the Chilean Peso (CLP)."
+  },
+  {
+    "question": "What is the national currency of Iran?",
+    "options": ["Rial", "Dinar", "Dirham", "Toman"],
+    "answer": "Rial",
+    "explanation": "Iran officially uses the Rial (IRR), although Toman is used informally."
+  },
+  {
+    "question": "Which former Yugoslav country uses the 'Denar'?",
+    "options": ["North Macedonia", "Montenegro", "Serbia", "Bosnia"],
+    "answer": "North Macedonia",
+    "explanation": "North Macedonia uses the Macedonian Denar (MKD)."
+  },
+  {
+    "question": "What is the currency used in Singapore?",
+    "options": ["Singapore Dollar", "Ringgit", "Yuan", "Baht"],
+    "answer": "Singapore Dollar",
+    "explanation": "Singapore uses the Singapore Dollar (SGD)."
+  },
+  {
+    "question": "Which European microstate uses the Euro?",
+    "options": ["Monaco", "Andorra", "Vatican City", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Monaco, Andorra, and Vatican City use the Euro through formal agreements."
+  },
+  
+    {
+    "question": "Which country uses the currency 'Kuna'?",
+    "options": ["Croatia", "Serbia", "Slovenia", "Bosnia"],
+    "answer": "Croatia",
+    "explanation": "Before switching to Euro in 2023, Croatia used the Kuna (HRK)."
+  },
+  {
+    "question": "Which country uses the currency 'Colon'?",
+    "options": ["Costa Rica", "El Salvador", "Both", "Guatemala"],
+    "answer": "Both",
+    "explanation": "Both Costa Rica and El Salvador historically used the Colon, but El Salvador now uses the USD."
+  },
+  {
+    "question": "Which country officially adopted Bitcoin as legal tender in 2021?",
+    "options": ["El Salvador", "Panama", "Argentina", "Mexico"],
+    "answer": "El Salvador",
+    "explanation": "El Salvador became the first country to adopt Bitcoin as legal tender in September 2021."
+  },
+  {
+    "question": "Which African country uses the 'Birr'?",
+    "options": ["Ethiopia", "Sudan", "Eritrea", "Djibouti"],
+    "answer": "Ethiopia",
+    "explanation": "The Ethiopian Birr (ETB) is the official currency."
+  },
+  {
+    "question": "What is the name of Nigeria's digital currency?",
+    "options": ["eNaira", "NairaCoin", "Naijacoin", "NGDC"],
+    "answer": "eNaira",
+    "explanation": "eNaira is Nigeria's official central bank digital currency (CBDC)."
+  },
+  {
+    "question": "Which country uses the currency 'Zloty'?",
+    "options": ["Poland", "Czech Republic", "Hungary", "Austria"],
+    "answer": "Poland",
+    "explanation": "The Polish Zloty (PLN) is the currency of Poland."
+  },
+  {
+    "question": "What is the digital currency launched by China called?",
+    "options": ["e-CNY", "e-Yuan", "ChinaCoin", "Digital Renminbi"],
+    "answer": "e-CNY",
+    "explanation": "China's central bank digital currency is called e-CNY (digital yuan)."
+  },
+  {
+    "question": "Which African country uses the 'Rand' as its currency?",
+    "options": ["South Africa", "Nigeria", "Kenya", "Ghana"],
+    "answer": "South Africa",
+    "explanation": "The South African Rand (ZAR) is the official currency of South Africa."
+  },
+  {
+    "question": "Which currency was used in Germany before the Euro?",
+    "options": ["Franc", "Mark", "Krone", "Lira"],
+    "answer": "Mark",
+    "explanation": "Germany used the Deutsche Mark (DEM) before adopting the Euro in 2002."
+  },
+  {
+    "question": "Which country uses the currency 'Ringgit'?",
+    "options": ["Malaysia", "Indonesia", "Singapore", "Brunei"],
+    "answer": "Malaysia",
+    "explanation": "The Malaysian Ringgit (MYR) is the official currency of Malaysia."
+  },
+  {
+    "question": "What is the smallest unit of the Indian Rupee?",
+    "options": ["Paisa", "Anna", "Cent", "Rupee"],
+    "answer": "Paisa",
+    "explanation": "100 paise make 1 Indian Rupee. However, paise coins are rarely used now."
+  },
+  {
+    "question": "Which country officially uses the 'Kuna' as its currency until 2023?",
+    "options": ["Croatia", "Slovenia", "Serbia", "Bosnia"],
+    "answer": "Croatia",
+    "explanation": "Croatia used the Kuna until switching to the Euro in 2023."
+  },
+  {
+    "question": "Which Southeast Asian country uses the currency 'Kip'?",
+    "options": ["Laos", "Vietnam", "Cambodia", "Myanmar"],
+    "answer": "Laos",
+    "explanation": "The Lao Kip (LAK) is the official currency of Laos."
+  },
+  {
+    "question": "What is the main currency used in Hong Kong?",
+    "options": ["Hong Kong Dollar", "Chinese Yuan", "US Dollar", "Macau Pataca"],
+    "answer": "Hong Kong Dollar",
+    "explanation": "The Hong Kong Dollar (HKD) is pegged to the US Dollar and is Hong Kong's official currency."
+  },
+  {
+    "question": "Which cryptocurrency was founded by Vitalik Buterin?",
+    "options": ["Ethereum", "Bitcoin", "Litecoin", "Ripple"],
+    "answer": "Ethereum",
+    "explanation": "Ethereum was proposed in 2013 and launched in 2015 by Vitalik Buterin and others."
+  },
+  {
+    "question": "What is the ISO currency code for Swiss Franc?",
+    "options": ["CHF", "SFR", "SWF", "FRS"],
+    "answer": "CHF",
+    "explanation": "CHF stands for Confoederatio Helvetica Franc, the Swiss Franc's ISO code."
+  },
+  {
+    "question": "Which currency was replaced by the Euro in Italy?",
+    "options": ["Lira", "Franc", "Mark", "Escudo"],
+    "answer": "Lira",
+    "explanation": "Italy used the Italian Lira until the Euro was introduced in 2002."
+  },
+  {
+    "question": "Which Caribbean country uses the 'East Caribbean Dollar'?",
+    "options": ["Saint Lucia", "Jamaica", "Barbados", "Cuba"],
+    "answer": "Saint Lucia",
+    "explanation": "Saint Lucia is part of the Eastern Caribbean Currency Union using the XCD."
+  },
+  {
+    "question": "Which metal was traditionally used in the Indian 'Mohur' coin?",
+    "options": ["Gold", "Silver", "Copper", "Nickel"],
+    "answer": "Gold",
+    "explanation": "The Mohur was a gold coin used during Mughal and British rule in India."
+  },
+  {
+    "question": "What is the official currency of Israel?",
+    "options": ["Shekel", "Dinar", "Dirham", "Lira"],
+    "answer": "Shekel",
+    "explanation": "The Israeli New Shekel (ILS) is the country's official currency."
+  },
+  {
+    "question": "Which European country is not part of the Eurozone?",
+    "options": ["Norway", "France", "Germany", "Spain"],
+    "answer": "Norway",
+    "explanation": "Norway uses the Norwegian Krone, not the Euro."
+  },
+  {
+    "question": "Which Latin American country uses the 'Sol' as its currency?",
+    "options": ["Peru", "Chile", "Bolivia", "Paraguay"],
+    "answer": "Peru",
+    "explanation": "Peru's official currency is the Peruvian Sol (PEN)."
+  },
+  {
+    "question": "Which cryptocurrency uses the consensus algorithm 'Proof of Stake'?",
+    "options": ["Ethereum (post-merge)", "Bitcoin", "Litecoin", "Dogecoin"],
+    "answer": "Ethereum (post-merge)",
+    "explanation": "Ethereum transitioned to Proof of Stake in 2022 with 'The Merge'."
+  },
+  {
+    "question": "Which Middle Eastern country uses the Dinar?",
+    "options": ["Iraq", "Iran", "UAE", "Qatar"],
+    "answer": "Iraq",
+    "explanation": "Iraq's official currency is the Iraqi Dinar (IQD)."
+  },
+  {
+    "question": "What currency is used in Nigeria?",
+    "options": ["Naira", "Shilling", "Cedi", "Pound"],
+    "answer": "Naira",
+    "explanation": "The Nigerian Naira (NGN) is the official currency of Nigeria."
+  },
+  {
+    "question": "What is the main purpose of stablecoins?",
+    "options": ["To maintain a stable value", "To mine cryptocurrency", "To increase inflation", "To reduce transaction fees"],
+    "answer": "To maintain a stable value",
+    "explanation": "Stablecoins like USDT and USDC are pegged to fiat currencies for stability."
+  },
+  {
+    "question": "Which country's currency is known as the 'Dong'?",
+    "options": ["Vietnam", "Thailand", "Philippines", "Cambodia"],
+    "answer": "Vietnam",
+    "explanation": "The Vietnamese Dong (VND) is Vietnam’s official currency."
+  },
+  {
+    "question": "What does the acronym 'Fiat Currency' refer to?",
+    "options": [
+      "Government-issued currency not backed by a physical commodity",
+      "A digital currency",
+      "A cryptocurrency",
+      "Gold-backed currency"
+    ],
+    "answer": "Government-issued currency not backed by a physical commodity",
+    "explanation": "Fiat currency derives its value from government regulation rather than backing by physical goods."
+  },
+  {
+    "question": "What is the currency of Kazakhstan?",
+    "options": ["Tenge", "Ruble", "Som", "Manat"],
+    "answer": "Tenge",
+    "explanation": "The Kazakhstani Tenge (KZT) is Kazakhstan’s official currency."
+  },
+  {
+    "question": "Which African region uses the 'CFA Franc'?",
+    "options": ["West and Central Africa", "North Africa", "East Africa", "Southern Africa"],
+    "answer": "West and Central Africa",
+    "explanation": "The CFA Franc is used in two zones: West African and Central African CFA regions."
+  },
+  {
+    "question": "Which European microstate uses the Swiss Franc?",
+    "options": ["Liechtenstein", "Monaco", "Andorra", "San Marino"],
+    "answer": "Liechtenstein",
+    "explanation": "Liechtenstein uses the Swiss Franc (CHF) due to its customs union with Switzerland."
+  },
+  {
+    "question": "What does the 'Satoshi' represent in Bitcoin?",
+    "options": [
+      "Smallest unit of Bitcoin",
+      "A cryptocurrency wallet",
+      "Bitcoin creator’s pseudonym",
+      "A type of blockchain"
+    ],
+    "answer": "Smallest unit of Bitcoin",
+    "explanation": "1 Bitcoin = 100,000,000 Satoshis."
+  },
+  {
+    "question": "Which Central American country became the first to adopt Bitcoin as legal tender?",
+    "options": ["El Salvador", "Panama", "Costa Rica", "Honduras"],
+    "answer": "El Salvador",
+    "explanation": "In 2021, El Salvador became the first country to adopt Bitcoin as legal tender."
+  },
+  {
+    "question": "Which of the following is not a fiat currency?",
+    "options": ["Bitcoin", "Yen", "Dollar", "Euro"],
+    "answer": "Bitcoin",
+    "explanation": "Bitcoin is a decentralized digital currency, not issued by any government."
+  },
+  {
+    "question": "What does 'XDR' stand for in international finance?",
+    "options": ["Special Drawing Rights", "Exchange Debt Ratio", "Xchange Dollar Reserve", "External Debt Ratio"],
+    "answer": "Special Drawing Rights",
+    "explanation": "XDR is an IMF international reserve asset composed of a basket of major currencies."
+  },
+  {
+    "question": "Which historical currency was used in ancient Rome?",
+    "options": ["Denarius", "Dinar", "Florin", "Escudo"],
+    "answer": "Denarius",
+    "explanation": "The Roman Denarius was a silver coin widely used during the Roman Empire."
+  },
+  {
+    "question": "Which country's currency is called the 'Forint'?",
+    "options": ["Hungary", "Poland", "Romania", "Czech Republic"],
+    "answer": "Hungary",
+    "explanation": "The Hungarian Forint (HUF) is the official currency of Hungary."
+  },
+  {
+    "question": "What was the former currency of Germany before the Euro?",
+    "options": ["Franc", "Mark", "Schilling", "Krona"],
+    "answer": "Mark",
+    "explanation": "Germany used the Deutsche Mark (DEM) before switching to the Euro in 2002."
+  },
+  {
+    "question": "Which African country uses the 'Cedi' as its official currency?",
+    "options": ["Ghana", "Nigeria", "Kenya", "Tanzania"],
+    "answer": "Ghana",
+    "explanation": "The Ghanaian Cedi (GHS) is the official currency of Ghana."
+  },
+  {
+    "question": "What is the currency used in Vatican City?",
+    "options": ["Lira", "Euro", "Florin", "Franc"],
+    "answer": "Euro",
+    "explanation": "Vatican City uses the Euro under a special agreement with the EU."
+  },
+  {
+    "question": "Which currency has the currency code 'CHF'?",
+    "options": ["Swiss Franc", "Czech Koruna", "Chilean Peso", "Croatian Kuna"],
+    "answer": "Swiss Franc",
+    "explanation": "CHF stands for the Swiss Franc, used in Switzerland and Liechtenstein."
+  },
+  {
+    "question": "Which Caribbean country uses the 'Barbadian Dollar'?",
+    "options": ["Barbados", "Bahamas", "Trinidad and Tobago", "Saint Lucia"],
+    "answer": "Barbados",
+    "explanation": "The Barbadian Dollar (BBD) is the official currency of Barbados."
+  },
+  {
+    "question": "Which cryptocurrency introduced the concept of 'smart contracts'?",
+    "options": ["Bitcoin", "Ripple", "Ethereum", "Litecoin"],
+    "answer": "Ethereum",
+    "explanation": "Ethereum allows developers to build decentralized apps using smart contracts."
+  },
+  {
+    "question": "Which country pegs its currency, the Riyal, to the US Dollar?",
+    "options": ["Saudi Arabia", "Iran", "Egypt", "Lebanon"],
+    "answer": "Saudi Arabia",
+    "explanation": "The Saudi Riyal (SAR) is pegged to the US Dollar at a fixed rate."
+  },
+  {
+    "question": "Which European microstate uses the 'Lira' unofficially alongside the Euro?",
+    "options": ["San Marino", "Monaco", "Andorra", "Liechtenstein"],
+    "answer": "San Marino",
+    "explanation": "San Marino used the Italian Lira and now uses the Euro, though Lira remains in cultural use."
+  },
+  {
+    "question": "What was the first country to adopt Bitcoin as legal tender?",
+    "options": ["Venezuela", "Switzerland", "El Salvador", "Argentina"],
+    "answer": "El Salvador",
+    "explanation": "In 2021, El Salvador became the first country to adopt Bitcoin as legal tender."
+  },
+  {
+    "question": "Which South American country uses the 'Sol'?",
+    "options": ["Chile", "Peru", "Bolivia", "Ecuador"],
+    "answer": "Peru",
+    "explanation": "The Peruvian Sol (PEN) is the official currency of Peru."
+  },
+  {
+    "question": "Which Asian country uses the 'Taka'?",
+    "options": ["Bangladesh", "Pakistan", "Nepal", "Sri Lanka"],
+    "answer": "Bangladesh",
+    "explanation": "The Bangladeshi Taka (BDT) is the currency of Bangladesh."
+  },
+  {
+    "question": "Which country's currency was called the 'Escudo' before adopting the Euro?",
+    "options": ["Spain", "Portugal", "Greece", "Italy"],
+    "answer": "Portugal",
+    "explanation": "Portugal used the Escudo until it adopted the Euro in 2002."
+  },
+  {
+    "question": "Which metal backs the Venezuelan Petro cryptocurrency?",
+    "options": ["Gold", "Oil", "Silver", "Copper"],
+    "answer": "Oil",
+    "explanation": "The Petro is supposedly backed by Venezuela’s oil reserves."
+  },
+  {
+    "question": "Which South Asian country issued a commemorative currency note with a space shuttle on it?",
+    "options": ["India", "Pakistan", "Sri Lanka", "Bangladesh"],
+    "answer": "Sri Lanka",
+    "explanation": "Sri Lanka issued a commemorative note in 2009 featuring a space shuttle to mark 50 years of central banking."
+  },
+  {
+    "question": "Which Gulf country uses the 'Dinar'?",
+    "options": ["Kuwait", "UAE", "Bahrain", "Qatar"],
+    "answer": "Kuwait",
+    "explanation": "Kuwait uses the Kuwaiti Dinar (KWD), one of the highest valued currencies."
+  },
+  {
+    "question": "What is the smallest denomination of the Japanese Yen currently in use?",
+    "options": ["1 Yen", "5 Yen", "10 Yen", "50 Yen"],
+    "answer": "1 Yen",
+    "explanation": "1 Yen is the smallest legal tender coin still in circulation in Japan."
+  },
+  {
+    "question": "Which country issues coins with square holes in them?",
+    "options": ["Japan", "China", "Vietnam", "Mongolia"],
+    "answer": "Japan",
+    "explanation": "Japan’s 5 Yen and 50 Yen coins have holes in the center."
+  },
+  {
+    "question": "Which European country’s currency was the 'Kuna' before adopting the Euro in 2023?",
+    "options": ["Bulgaria", "Croatia", "Slovenia", "Romania"],
+    "answer": "Croatia",
+    "explanation": "Croatia adopted the Euro in 2023, replacing the Kuna."
+  },
+  {
+    "question": "Which African country is known for overprinting its currency, leading to billion-dollar notes?",
+    "options": ["Nigeria", "Sudan", "Zimbabwe", "South Africa"],
+    "answer": "Zimbabwe",
+    "explanation": "Zimbabwe issued trillion-dollar notes during its 2008 hyperinflation crisis."
+  },
+  {
+    "question": "What is the most traded currency pair in the forex market?",
+    "options": ["USD/JPY", "EUR/GBP", "EUR/USD", "USD/CHF"],
+    "answer": "EUR/USD",
+    "explanation": "The Euro/US Dollar (EUR/USD) pair is the most traded in global forex markets."
+  },
+  {
+    "question": "Which Latin American country uses the 'Guarani'?",
+    "options": ["Paraguay", "Uruguay", "Ecuador", "Colombia"],
+    "answer": "Paraguay",
+    "explanation": "The Paraguayan Guarani (PYG) is one of the oldest currencies still in use."
+  },
+  {
+    "question": "What is the name of the central bank digital currency (CBDC) pilot in India?",
+    "options": ["e-Rupee", "Digital Rupee", "iRupee", "INDCoin"],
+    "answer": "e-Rupee",
+    "explanation": "The Reserve Bank of India launched the 'e-Rupee' as its CBDC pilot."
+  },
+  {
+    "question": "Which precious metal was historically used to back many currencies under the gold standard?",
+    "options": ["Silver", "Gold", "Platinum", "Copper"],
+    "answer": "Gold",
+    "explanation": "Under the gold standard, currencies were backed by a country’s gold reserves."
+  },
+  {
+    "question": "Which Pacific island nation uses the 'Tala' as its currency?",
+    "options": ["Tonga", "Fiji", "Samoa", "Vanuatu"],
+    "answer": "Samoa",
+    "explanation": "The Samoan Tala (WST) is the currency of Samoa."
+  },
+  {
+    "question": "Which Asian country uses the 'Rufiyaa'?",
+    "options": ["Maldives", "Sri Lanka", "Bhutan", "Brunei"],
+    "answer": "Maldives",
+    "explanation": "The Maldivian Rufiyaa (MVR) is the currency of the Maldives."
+  },
+  {
+    "question": "What was the former currency of France before the Euro?",
+    "options": ["Franc", "Lira", "Escudo", "Mark"],
+    "answer": "Franc",
+    "explanation": "France used the French Franc before adopting the Euro in 2002."
+  },
+  {
+    "question": "Which African country adopted the 'Eco' currency in West Africa (planned)?",
+    "options": ["Nigeria", "Ghana", "Benin", "Ivory Coast"],
+    "answer": "Ivory Coast",
+    "explanation": "The 'Eco' is a planned West African currency to replace the CFA Franc in countries like Ivory Coast."
+  },
+  {
+    "question": "Which cryptocurrency uses the symbol 'ADA'?",
+    "options": ["Polkadot", "Cardano", "Solana", "Chainlink"],
+    "answer": "Cardano",
+    "explanation": "ADA is the native cryptocurrency of the Cardano blockchain platform."
+  },
+  {
+    "question": "Which country’s currency is also called the 'Ringgit'?",
+    "options": ["Malaysia", "Indonesia", "Brunei", "Thailand"],
+    "answer": "Malaysia",
+    "explanation": "The Malaysian Ringgit (MYR) is the official currency of Malaysia."
+  },
+    {
+    "question": "Which technology is the backbone of cryptocurrencies like Bitcoin?",
+    "options": ["Blockchain", "Cloud Computing", "Data Mining", "AI"],
+    "answer": "Blockchain",
+    "explanation": "Blockchain is a decentralized ledger that records all cryptocurrency transactions."
+  },
+  {
+    "question": "Who created Bitcoin?",
+    "options": ["Elon Musk", "Satoshi Nakamoto", "Vitalik Buterin", "Charles Hoskinson"],
+    "answer": "Satoshi Nakamoto",
+    "explanation": "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, introduced in 2008."
+  },
+  {
+    "question": "What is the maximum supply of Bitcoin?",
+    "options": ["21 million", "100 million", "50 million", "Unlimited"],
+    "answer": "21 million",
+    "explanation": "Bitcoin is capped at 21 million coins to prevent inflation."
+  },
+  {
+    "question": "Which cryptocurrency is primarily used for smart contracts?",
+    "options": ["Ethereum", "Bitcoin", "Litecoin", "Ripple"],
+    "answer": "Ethereum",
+    "explanation": "Ethereum introduced smart contracts, allowing developers to build decentralized apps."
+  },
+  {
+    "question": "What does the term 'HODL' stand for in the crypto community?",
+    "options": ["Hold On for Dear Life", "Hide or Delay Loss", "Huge Overhead Daily Loss", "Highly Optimized Decentralized Ledger"],
+    "answer": "Hold On for Dear Life",
+    "explanation": "'HODL' is a slang term encouraging people to keep their crypto assets during market downturns."
+  },
+  {
+    "question": "Which token is known for stable value and is pegged to the U.S. Dollar?",
+    "options": ["Tether (USDT)", "Ethereum (ETH)", "Dogecoin (DOGE)", "Cardano (ADA)"],
+    "answer": "Tether (USDT)",
+    "explanation": "Tether is a stablecoin pegged 1:1 to the US Dollar, reducing volatility."
+  },
+  {
+    "question": "What is the smallest unit of Bitcoin called?",
+    "options": ["Satoshi", "Wei", "Lite", "Nano"],
+    "answer": "Satoshi",
+    "explanation": "1 Satoshi = 0.00000001 Bitcoin; named after Bitcoin's creator."
+  },
+  {
+    "question": "Which cryptocurrency features a dog in its logo?",
+    "options": ["Dogecoin", "Shiba Inu", "Both", "None"],
+    "answer": "Both",
+    "explanation": "Both Dogecoin and Shiba Inu use the Shiba Inu dog breed as their symbol."
+  },
+  {
+    "question": "Which cryptocurrency was forked from Bitcoin in 2017?",
+    "options": ["Bitcoin Cash", "Ethereum Classic", "Litecoin", "Ripple"],
+    "answer": "Bitcoin Cash",
+    "explanation": "Bitcoin Cash was created to allow larger block sizes and faster transactions."
+  },
+  {
+    "question": "What is the native currency of the Binance platform?",
+    "options": ["BNB", "BTC", "ETH", "XRP"],
+    "answer": "BNB",
+    "explanation": "BNB (Binance Coin) is used for trading discounts and utility within Binance."
+  },
+    {
+    "question": "Which platform introduced the ERC-20 token standard?",
+    "options": ["Ethereum", "Solana", "Binance Smart Chain", "Polkadot"],
+    "answer": "Ethereum",
+    "explanation": "ERC-20 is the technical standard used for fungible tokens on Ethereum."
+  },
+  {
+    "question": "Which consensus mechanism does Bitcoin use?",
+    "options": ["Proof of Work", "Proof of Stake", "Delegated Proof of Stake", "Proof of Authority"],
+    "answer": "Proof of Work",
+    "explanation": "Bitcoin uses Proof of Work, which requires miners to solve mathematical problems to validate blocks."
+  },
+  {
+    "question": "What does DeFi stand for?",
+    "options": ["Decentralized Finance", "Digital Fidelity", "Defined Finance", "Decentralized Fidelity"],
+    "answer": "Decentralized Finance",
+    "explanation": "DeFi refers to blockchain-based financial services without intermediaries like banks."
+  },
+  {
+    "question": "Which cryptocurrency is known for privacy-focused transactions?",
+    "options": ["Monero", "Litecoin", "Chainlink", "Tether"],
+    "answer": "Monero",
+    "explanation": "Monero uses stealth addresses and ring signatures to enhance user privacy."
+  },
+  {
+    "question": "Which company owns the crypto wallet 'MetaMask'?",
+    "options": ["Consensys", "Coinbase", "Binance", "OpenSea"],
+    "answer": "Consensys",
+    "explanation": "MetaMask, a popular Ethereum wallet, is developed by Consensys."
+  },
+  {
+    "question": "What does 'gas' refer to in Ethereum?",
+    "options": ["Transaction fee", "Token price", "Network size", "Mining hardware"],
+    "answer": "Transaction fee",
+    "explanation": "Gas is the fee paid to miners to perform transactions or run smart contracts on Ethereum."
+  },
+  {
+    "question": "What was the name of Ethereum's upgrade that moved it to Proof of Stake?",
+    "options": ["The Merge", "EIP-1559", "Sharding", "Beacon Boost"],
+    "answer": "The Merge",
+    "explanation": "The Merge occurred in 2022, transitioning Ethereum from Proof of Work to Proof of Stake."
+  },
+  {
+    "question": "Which cryptocurrency was designed by Ripple Labs?",
+    "options": ["XRP", "XLM", "DOT", "SOL"],
+    "answer": "XRP",
+    "explanation": "XRP is used by Ripple Labs to facilitate fast cross-border payments."
+  },
+  {
+    "question": "Which crypto project introduced parachains?",
+    "options": ["Polkadot", "Avalanche", "Cosmos", "Ethereum"],
+    "answer": "Polkadot",
+    "explanation": "Polkadot allows different blockchains to run in parallel through its parachain system."
+  },
+  {
+    "question": "Which crypto token is most associated with Chainlink?",
+    "options": ["LINK", "DOT", "UNI", "SOL"],
+    "answer": "LINK",
+    "explanation": "LINK is the native token of the Chainlink network, which connects smart contracts to external data."
+  },
+    {
+    "question": "What does the Byzantine Generals Problem relate to in blockchain?",
+    "options": ["Consensus in distributed systems", "Mining rewards", "Wallet generation", "Token inflation"],
+    "answer": "Consensus in distributed systems",
+    "explanation": "The Byzantine Generals Problem describes the challenge of reaching consensus in a network with unreliable nodes."
+  },
+  {
+    "question": "Which year did Ethereum launch?",
+    "options": ["2015", "2013", "2017", "2016"],
+    "answer": "2015",
+    "explanation": "Ethereum was officially launched on July 30, 2015."
+  },
+  {
+    "question": "What’s the main purpose of zk-SNARKs in crypto?",
+    "options": ["Privacy via zero-knowledge proofs", "Token inflation", "Staking rewards", "Fee reduction"],
+    "answer": "Privacy via zero-knowledge proofs",
+    "explanation": "zk-SNARKs allow one party to prove knowledge without revealing the information itself."
+  },
+  {
+    "question": "Which Ethereum improvement proposal introduced a deflationary burn mechanism?",
+    "options": ["EIP-1559", "EIP-20", "EIP-721", "EIP-2981"],
+    "answer": "EIP-1559",
+    "explanation": "EIP-1559 introduced base fee burning, reducing ETH supply over time."
+  },
+  {
+    "question": "What is a 'rug pull' in the crypto space?",
+    "options": ["A scam where developers run away with investor funds", "A type of mining", "An NFT minting strategy", "A DeFi arbitrage method"],
+    "answer": "A scam where developers run away with investor funds",
+    "explanation": "Rug pulls occur when developers suddenly drain a project's liquidity and disappear."
+  },
+  {
+    "question": "Which layer-2 solution is associated with optimistic rollups?",
+    "options": ["Optimism", "Polygon", "Loopring", "Arbitrum"],
+    "answer": "Optimism",
+    "explanation": "Optimism is a layer-2 scaling solution using optimistic rollups to reduce Ethereum gas fees."
+  },
+  {
+    "question": "Which cryptocurrency uses Directed Acyclic Graph (DAG) instead of blockchain?",
+    "options": ["IOTA", "Cardano", "NEO", "Ethereum"],
+    "answer": "IOTA",
+    "explanation": "IOTA uses a Tangle (a form of DAG) instead of traditional blockchain architecture."
+  },
+  {
+    "question": "What does a 'whale' refer to in crypto terminology?",
+    "options": ["An entity that holds large amounts of a cryptocurrency", "A failed ICO", "A mining reward", "A private key hacker"],
+    "answer": "An entity that holds large amounts of a cryptocurrency",
+    "explanation": "Crypto whales can influence markets due to their massive holdings."
+  },
+  {
+    "question": "Which project introduced the concept of 'Internet Computer' for decentralized computing?",
+    "options": ["DFINITY", "Avalanche", "Tezos", "Near"],
+    "answer": "DFINITY",
+    "explanation": "DFINITY created the Internet Computer Protocol (ICP) to decentralize cloud computing."
+  },
+  {
+    "question": "What does TVL (Total Value Locked) indicate in DeFi?",
+    "options": ["The total value of assets staked or locked in a protocol", "Total coins mined", "Annual growth rate", "Trading volume"],
+    "answer": "The total value of assets staked or locked in a protocol",
+    "explanation": "TVL is a key metric indicating the health and scale of a DeFi protocol."
+  }
+ ]
+}
+
