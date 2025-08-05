@@ -1,0 +1,167 @@
+<div class="container mt-4">
+  <h4 class="mb-5">📈 Historical Exchange Rate Chart</h4>
+
+  <div class="container my-4">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-4">
+        <label for="base-currency" class="form-label fw-semibold">Base Currency</label>
+        <select id="base-currency" class="form-select">
+          <option value="" disabled selected>-- Select Base Currency --</option>
+          {% for code, data in currencies.items() %}
+            <option value="{{ code }}">{{ data.country }} ({{ code }})</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-md-1 d-flex justify-content-center align-items-end">
+        <div id="swap-icon" class="exchange-icon bg-light border rounded px-2 py-1" style="font-size: 1.5rem; cursor: pointer;">⇄</div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="target-currency" class="form-label fw-semibold">Target Currency</label>
+        <select id="target-currency" class="form-select">
+          <option value="" disabled selected>-- Select Target Currency --</option>
+          {% for code, data in currencies.items() %}
+            <option value="{{ code }}">{{ data.country }} ({{ code }})</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-3">
+      <label for="startDate" class="form-label">Start Date</label>
+      <input type="date" id="startDate" class="form-control" required />
+    </div>
+    <div class="col-md-3">
+      <label for="endDate" class="form-label">End Date</label>
+      <input type="date" id="endDate" class="form-control" required />
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-4 offset-md-4 text-center">
+      <button class="btn btn-primary w-100" id="show-chart-btn">📊 Show Chart</button>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+  <div class="col-12">
+    <div class="alert alert-warning border border-danger rounded-3 shadow-sm" style="font-weight: bold; color: #b30000; font-size: 1rem;">
+      ⚠️ <strong>Warning!</strong> This chart feature is still under development. The data shown might be incomplete or inaccurate. We recommend not relying on it until it’s finalized. Thank you for your understanding.
+    </div>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <canvas id="historyChart" height="100"></canvas>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  let chartInstance = null;
+
+  function renderChart(labels, data, base, target) {
+    const ctx = document.getElementById("historyChart").getContext("2d");
+    if (chartInstance) chartInstance.destroy();
+    chartInstance = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels,
+        datasets: [{
+          label: `Exchange Rate (${base} → ${target})`,
+          data,
+          borderColor: "#007bff",
+          backgroundColor: "rgba(0, 123, 255, 0.1)",
+          tension: 0.4,
+          fill: true,
+          pointRadius: 3
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          x: { title: { display: true, text: "Date" } },
+          y: { title: { display: true, text: "Exchange Rate" } }
+        },
+        plugins: {
+          legend: { labels: { font: { size: 14 } } }
+        }
+      }
+    });
+  }
+
+  document.getElementById("show-chart-btn").addEventListener("click", () => {
+    const baseSel = document.getElementById("base-currency");
+    const targetSel = document.getElementById("target-currency");
+    const base = baseSel.options[baseSel.selectedIndex]?.value;
+    const target = targetSel.options[targetSel.selectedIndex]?.value;
+    const start = document.getElementById("startDate").value;
+    const end = document.getElementById("endDate").value;
+
+    console.log("Base:", base, "Target:", target, "Start:", start, "End:", end);
+
+    if (!base || !target) {
+      alert("Please select both base and target currencies.");
+      return;
+    }
+
+    if (!start || !end) {
+      alert("Please select start and end dates.");
+      return;
+    }
+
+    fetch(`/get_chart_data?base=${base}&target=${target}&start=${start}&end=${end}`)
+      .then(res => res.json())
+      .then(data => {
+        if (!Array.isArray(data)) {
+          console.error("Server responded with:", data);
+          alert(data.error || "Unexpected response from server.");
+          return;
+        }
+        const labels = data.map(entry => entry.date);
+        const rates = data.map(entry => entry.rate);
+        renderChart(labels, rates, base, target);
+      })
+      .catch(err => {
+        console.error("Error loading chart data:", err);
+        alert("Failed to load chart data.");
+      });
+  });
+
+  // Swap logic simplified
+  document.getElementById("swap-icon").addEventListener("click", () => {
+    const baseSel = document.getElementById("base-currency");
+    const targetSel = document.getElementById("target-currency");
+    const base = baseSel.value;
+    const target = targetSel.value;
+
+    if (!base || !target) {
+      alert("Please select both base and target currencies before swapping.");
+      return;
+    }
+    if (base === target) {
+      alert("Base and target currencies are already the same.");
+      return;
+    }
+
+    // Swap current selections
+    baseSel.value = target;
+    targetSel.value = base;
+
+    // Optionally refresh chart if already have dates
+    document.getElementById("show-chart-btn").click();
+  });
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const today = new Date();
+    const oneWeekAgo = new Date();
+    oneWeekAgo.setDate(today.getDate() - 7);
+    document.getElementById('endDate').value = today.toISOString().split('T')[0];
+    document.getElementById('startDate').value = oneWeekAgo.toISOString().split('T')[0];
+  });
+</script>

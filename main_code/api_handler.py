@@ -1,10 +1,11 @@
 import requests
 import json
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify,request
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import os
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 
 
 def get_supported_currencies():
@@ -113,28 +114,104 @@ def get_exchange_rates(base="USD"):
         return None
 
 
+executor = ThreadPoolExecutor(max_workers=3)
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
+
+NEWS_KEY = os.getenv("NEWS_KEY")
+FMPAPI_KEY = os.getenv("FMPAPI_KEY")
+GNEWSAPI_KEY = os.getenv("GNEWSAPI_KEY")
 news_bp = Blueprint('news_bp', __name__)
-NEWS_API_KEY = os.getenv('NEWS_KEY')
+
+def fetch_newsapi_articles():
+    articles = []
+    try:
+        if NEWS_KEY:
+            url = (
+                f"https://newsapi.org/v2/everything?q=currency+OR+forex+OR+exchange+rates"
+                f"&language=en&sortBy=publishedAt&from={(datetime.utcnow() - timedelta(days=2)).strftime('%Y-%m-%d')}&pageSize=10&apiKey={NEWS_KEY}"
+            )
+            r = requests.get(url)
+            if r.status_code == 200:
+                data = r.json()
+                for article in data.get("articles", []):
+                    articles.append({
+                        "source": article.get("source", {}).get("name"),
+                        "title": article.get("title"),
+                        "url": article.get("url"),
+                        "publishedAt": article.get("publishedAt"),
+                        "image": article.get("urlToImage")
+                    })
+    except Exception as e:
+        print("[NEWSAPI] Error:", e)
+    return articles
+
+
+def fetch_fmp_articles():
+    articles = []
+    try:
+        if FMPAPI_KEY:
+            url = f"https://financialmodelingprep.com/api/v3/fmp/articles?page=0&apikey={FMPAPI_KEY}"
+            r = requests.get(url)
+            if r.status_code == 200:
+                data = r.json()
+                if isinstance(data, list):
+                    for item in data:
+                        if isinstance(item, dict): 
+                            if "currency" in item.get("title", "").lower():
+                                articles.append({
+                                    "source": "FMP",
+                                    "title": item.get("title"),
+                                    "url": item.get("url"),
+                                    "publishedAt": item.get("publishedDate"),
+                                    "image": item.get("image")
+                                })
+                        else:
+                            print("[FMP] Unexpected non-dict item:", item)
+                else:
+                    print("[FMP] Unexpected response structure:", data)
+    except Exception as e:
+        print("[FMP] Error:", e)
+    return articles
+
+
+def fetch_gnews_articles():
+    articles = []
+    try:
+        if GNEWSAPI_KEY:
+            url = (
+                f"https://gnews.io/api/v4/search?q=currency+OR+forex+OR+exchange+rates"
+                f"&lang=en&country=us&max=10&apikey={GNEWSAPI_KEY}"
+            )
+            r = requests.get(url)
+            if r.status_code == 200:
+                data = r.json()
+                for article in data.get("articles", []):
+                    articles.append({
+                        "source": article.get("source", {}).get("name"),
+                        "title": article.get("title"),
+                        "url": article.get("url"),
+                        "publishedAt": article.get("publishedAt"),
+                        "image": article.get("image")
+                    })
+    except Exception as e:
+        print("[GNEWS] Error:", e)
+    return articles
+
+
 @news_bp.route('/get_news')
 def get_news():
-    if not NEWS_API_KEY:
-        return jsonify({"error": "API key not set"}), 500
-
-    url =(
-         f'https://newsapi.org/v2/everything?q=currency OR forex&'
-         f'sortBy=publishedAt&pageSize=10&apiKey={NEWS_API_KEY}'
-    )
-    response = requests.get(url)
-    data = response.json()
-    
-    if data.get("status") != "ok":
-        return jsonify({"error": "Failed to fetch news"}), 500
-
-    articles = data["articles"]
-    simplified = [
-        {"title": a["title"], "url": a["url"]}
-        for a in articles if a.get("title") and a.get("url")
+    futures = [
+        executor.submit(fetch_newsapi_articles),
+        executor.submit(fetch_fmp_articles),
+        executor.submit(fetch_gnews_articles),
     ]
 
-    return jsonify(simplified)
+    all_articles = []
+    for f in futures:
+        all_articles.extend(f.result())
+
+    # Sort by date
+    all_articles.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
+
+    return jsonify(all_articles[:15])
+

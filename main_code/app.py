@@ -14,6 +14,7 @@ app.secret_key = os.getenv("SECRET_KEY")
 app.register_blueprint(api_blueprint)
 app.register_blueprint(news_bp)
 
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     currencies_api = get_supported_currencies()
@@ -121,7 +122,8 @@ def symbol_page():
 
 
     return render_template(
-        "symbol.html", 
+        "symbol.html",
+        "chart.html", 
         currencies=currencies , 
         currency_symbols=currency_symbols,
         currency_names=currency_names   
@@ -136,6 +138,66 @@ def get_quiz():
         return jsonify(quiz_data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+
+@app.route("/chart")
+def chart():
+    currencies_api = get_supported_currencies()
+    json_path = os.path.join(os.path.dirname(__file__), "currency_meta.json")
+    with open(json_path, "r", encoding="utf-8") as f:
+        meta_data = json.load(f)
+
+    currencies = {}
+    for code in currencies_api:
+        country = meta_data.get(code, {}).get("country", currencies_api[code]["description"])
+        flag = meta_data.get(code, {}).get("flag", None)
+        currencies[code] = {
+            "country": country,
+            "flag": flag,
+        }
+
+    return render_template("chart.html", currencies=currencies)
+
+@app.route("/get_chart_data")
+def get_chart_data():
+    base = request.args.get("base")
+    target = request.args.get("target")
+    start = request.args.get("start")
+    end = request.args.get("end")
+
+    if not all([base, target, start, end]):
+        return jsonify({"error": "Missing parameters"}), 400
+
+    try:
+        url = f"https://api.apilayer.com/exchangerates_data/timeseries?start_date={start}&end_date={end}&base={base}&symbols={target}"
+        headers = {
+            "apikey": os.getenv("APILAYER_API_KEY")
+        }
+
+        response = requests.get(url, headers=headers)
+        data = response.json()
+
+
+        if not data.get("success") or "rates" not in data:
+            print("[ERROR] API returned failure or no rates.",data)
+            return jsonify({"error": "Could not fetch historical data."}), 500
+
+        rates = []
+        for date, rate_info in data["rates"].items():
+            rate = rate_info.get(target)
+            if rate is not None:
+                rates.append({"date": date, "rate": rate})
+
+        rates.sort(key=lambda x: x["date"])
+        print("📤 Returning this JSON:", rates)  
+        return jsonify(rates)
+
+    except Exception as e:
+        print("[ERROR] /get_chart_data failed:", e)
+        return jsonify({"error": "Server error fetching chart data."}), 500
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -294,8 +294,11 @@
       }
     }
 
+    const imageHtml = q.image ? `<img src="${q.image}" alt="Quiz Image" class="img-fluid rounded shadow-sm mb-3" style="max-height: 200px;">` : '';
+
     const quizHtml = `
       <p class="fw-semibold">${q.question}</p>
+      ${imageHtml}
       <form id="quiz-form">
         ${q.options.map((opt, i) => `
           <div class="form-check">
@@ -307,9 +310,10 @@
       <div id="quiz-feedback" class="mt-3"></div>
     `;
 
+
     container.innerHTML = quizHtml;
 
-    // ✅ Answer/Feedback logic
+    // Answer/Feedback logic
     const radioButtons = document.querySelectorAll('input[name="quiz-option"]');
     radioButtons.forEach((radio) => {
       radio.addEventListener('change', function () {
@@ -413,6 +417,14 @@
   #quiz-card {
     min-height: 400px;
   }
+  #quiz-container img {
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
 </style>
 
 
